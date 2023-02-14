@@ -1,0 +1,52 @@
+
+.hidden {
+    display: none;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+#column1 {
+    background-color: pink;
+}
+
+#column2 {
+    background-color: red;
+}
+
+
+@media screen and (min-width: 641px) {
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: row;
+    }
+
+    #column1 {
+        width: 25%;
+        background-color: blue;
+    }
+
+    #column2 {
+        width: 25%;
+        background-color: purple;
+    }
+
+    #column3 {
+        width: 25%;
+        background-color: grey;
+        display: block;
+    }
+
+    #column4 {
+        width: 25%;
+        background-color: brown;
+        display: block;
+    }
+
+}
